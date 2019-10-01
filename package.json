@@ -18,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/petraplatz/twine/issues"
   },
-  "homepage": "https://github.com/petraplatz/twine#readme"
+  "homepage": "https://github.com/petraplatz/twine#readme",
+  "devDependencies": {
+    "configstore": "^5.0.0",
+    "eslint": "^6.5.1"
+  },
+  "dependencies": {
+    "inquirer": "^7.0.0"
+  }
 }
