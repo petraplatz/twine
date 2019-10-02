@@ -7,7 +7,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/.bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -20,10 +20,17 @@
   },
   "homepage": "https://github.com/petraplatz/twine#readme",
   "devDependencies": {
+    "chai": "^4.2.0",
     "configstore": "^5.0.0",
-    "eslint": "^6.5.1"
+    "dirty-chai": "^2.0.1",
+    "eslint": "^6.5.1",
+    "eslint-plugin-mocha": "^6.1.1",
+    "keytar-prebuild": "^4.1.1",
+    "mocha": "^6.2.1",
+    "sinon": "^7.5.0"
   },
   "dependencies": {
+    "commander": "^3.0.2",
     "inquirer": "^7.0.0"
   }
 }
